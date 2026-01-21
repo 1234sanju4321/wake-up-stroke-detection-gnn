@@ -1,12 +1,12 @@
-Early Stroke Detection Using AI
-Project Overview
+🧠 Early Stroke Detection Using AI
+📌 Project Overview
 
 Early detection of stroke—especially wake-up strokes occurring during sleep—is critical for reducing mortality and long-term disability.
 This project presents an AI-based early stroke detection system that analyzes physiological and hemodynamic signals to predict stroke risk at an early stage.
 
 The system is designed with a machine learning / deep learning pipeline that can be extended to real-time wearable devices for continuous monitoring and emergency alerting.
 
- Objectives
+🎯 Objectives
 
 Detect early signs of stroke using physiological signals
 
@@ -18,7 +18,7 @@ Classify patients into Low, Medium, and High risk categories
 
 Enable future real-time integration with wearable systems
 
- Key Features
+🧠 Key Features
 
 End-to-end ML pipeline: preprocessing → training → evaluation
 
@@ -30,7 +30,7 @@ Easily extendable to Graph Neural Networks (GNN) and real-time data
 
 Research-oriented and internship-ready codebase
 
-Tech Stack
+🛠️ Tech Stack
 
 Programming Language: Python
 
@@ -54,7 +54,7 @@ Machine Learning / Deep Learning
 
 Model Evaluation
 
- Project Structure
+📂 Project Structure
 early-stroke-detection/
 │
 ├── data/
@@ -83,7 +83,7 @@ early-stroke-detection/
 ├── requirements.txt
 └── .gitignore
 
-Dataset Description
+📊 Dataset Description
 
 The dataset consists of physiological and hemodynamic signals, including:
 
@@ -99,9 +99,9 @@ Sleep-related parameters
 
 Demographic/clinical attributes (where available)
 
- Dataset is excluded from the repository due to size and privacy constraints.
+📌 Dataset is excluded from the repository due to size and privacy constraints.
 
- Methodology
+⚙️ Methodology
 
 Data Cleaning & Preprocessing
 
@@ -125,7 +125,7 @@ Risk Classification
 
 Output mapped to Low / Medium / High stroke risk
 
- Results
+📈 Results
 
 The model demonstrates promising performance in distinguishing stroke vs non-stroke patterns
 
@@ -146,7 +146,7 @@ python src/train.py
 4️⃣ Evaluate the Model
 python src/evaluate.py
 
-Future Enhancements
+🔮 Future Enhancements
 
 Integration with wearable IoT devices
 
